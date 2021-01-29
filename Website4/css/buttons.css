@@ -1,0 +1,42 @@
+.button {
+  padding: 0px 0px;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #EDECEB;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 0px #999;
+}
+
+.button:hover {opacity: 0.75;}
+
+.button:active {
+  background-color: #dbd9d7;
+  transform: translateY(1px);
+}
+
+/*navbar buttons*/
+.button2 {
+  padding: 0px 0px;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #DDDCD9;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 0px #999;
+}
+
+.button2:hover {opacity: 0.75;}
+
+.button2:active {
+  background-color: #cfcec9;
+  transform: translateY(1px);
+}
+
+.clickable {
+    cursor: pointer;
+}

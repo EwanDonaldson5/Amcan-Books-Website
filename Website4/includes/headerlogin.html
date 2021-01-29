@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Amcan Books</title>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="../css/bootstrap-theme.css">
+<link rel="stylesheet" type="text/css" href="../css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css"  href="../css/buttons.css">
+<link rel="stylesheet" type="text/css"  href="../css/tables.css">
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css"  href="../css/style.css">
+<link rel="stylesheet" type="text/css"  href="../css/slider.css">
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="favicon.png" />
+
+<!-- Script
+    ================================================== -->
+<script type="text/javascript" src="../js/modernizr.custom.js"></script>
+<script type="text/javascript" src="../js/jquery.1.11.1.js"></script>
+<script type="text/javascript" src="../js/dropdown.js"></script>
+<script type="text/javascript" src="../js/slider.js"></script> 
+
+<!--Script for Opening Library Tabs-->
+<script type="text/javascript" language="JavaScript">
+function HideContent(d) {
+document.getElementById(d).style.display = "none";
+}
+function ShowContent(d) {
+document.getElementById(d).style.display = "block";
+}
+function ReverseDisplay(d) {
+if(document.getElementById(d).style.display == "none") { document.getElementById(d).style.display = "block"; }
+else { document.getElementById(d).style.display = "none"; }
+}
+</script>
+
+</head>
+<body style="background-color:#EDECEB;">
+
+<div id="titlebar" style="position:fixed;top:0;width:100%;z-index:1;">
+	<div id="titlebarthin">
+		<br>
+	</div>
+	<div id="titlebarthick">
+		<br>
+	</div>
+</div>
+
+<div id="navbar" style="position:fixed;bottom:0;width:100%;z-index:1;">
+<table class="navigationbar" style="width:100%;max-width:550px;" align="center">
+	<col style="width:20%;min-width:20%;">
+	<col style="width:20%;min-width:20%;">
+	<col style="width:20%;min-width:20%;">
+	<col style="width:20%;min-width:20%;">
+	<col style="width:20%;min-width:20%;">
+		<tr>
+			<td class="button2">
+				<a href="#"><img src="../images/icons/SignIn.png" class="center" style="width:60%;margin-top:10%;margin-bottom:10%;"></a>
+			</td>
+			<td class="button2">
+			    <a href="register.php"><img src="../images/icons/Darken/Register.png" class="center" style="width:60%;margin-top:10%;margin-bottom:10%;"></a>
+			</td>
+			<td class="button2">
+			    <a href="#"><img src="../images/icons/Darken/Cart.png" class="center" style="width:60%;margin-top:10%;margin-bottom:10%;"></a>
+			</td>
+			<td class="button2">
+			    <a href="#"><img src="../images/icons/Darken/Catalogue.png" class="center" style="width:60%;margin-top:10%;margin-bottom:10%;"></a>
+			</td>
+			<td class="button2">
+			    <a href="#"><img src="../images/icons/Darken/Library.png" class="center" style="width:60%;margin-top:10%;margin-bottom:10%;"></a>
+			</td>
+		</tr>
+    </table>
+</div>
+
+
+</body>
+</html>
